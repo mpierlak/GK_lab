@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="500" height="500"
+viewBox="0 0 50 50"
+preserveAspectRatio="xMidYMid">
+<defs>
+  <g id="animacja">
+       <!-- Wielokąt -->
+    <polygon points="7.299 6.875, 6.8215424859373694 8.344463130731183, 5.5715424859373694 9.252641290737884, 4.026457514062632 9.252641290737884, 2.776457514062632 8.344463130731183, 2.2990000000000004 6.875, 2.7764575140626317 5.4055368692688175, 4.026457514062631 4.497358709262116, 5.571542485937369 4.497358709262116, 6.821542485937369 5.405536869268817" fill="none" stroke="black" stroke-width="0.2" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </polygon>
+    
+    <!-- Linie -->
+    <line x1="7.299" y1="6.875" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="6.8215424859373694" y1="8.344463130731183" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="5.5715424859373694" y1="9.252641290737884" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="4.026457514062632" y1="9.252641290737884" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="2.776457514062632" y1="8.344463130731183" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="2.2990000000000004" y1="6.875" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="2.7764575140626317" y1="5.4055368692688175" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="4.026457514062631" y1="4.497358709262116" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="5.571542485937369" y1="4.026457514062631" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="6.821542485937369" y1="5.405536869268817" x2="4.799" y2="6.875" stroke="black" stroke-width="0.1" transform-origin="4.799 6.875">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</defs>
+<use xlink:href = "#animacja" x="0.2" y="0.3" />
+<use xlink:href = "#animacja" x="12.5" y="6" />
+<use xlink:href = "#animacja" x="13.5" y="16.5" />
+<use xlink:href = "#animacja" x="26" y="22.5" />
+<use xlink:href = "#animacja" x="19" y="-3" />
+<use xlink:href = "#animacja" x="32" y="3" />
+
+
+<rect x="7" y="3.5" height="2" width="15" fill="red" transform="rotate (25)"/>
+<polygon points="9.5,20 11,10 12.5,20" fill="purple" />
+<rect x="26" y="12.5" height="2" width="15" fill="red" transform="rotate (25)"/>
+<polygon points="22,38 24,26 26,38" fill="blue" />
+<rect x="23" y="-7.5" height="2" width="15" fill="red" transform="rotate (25)"/>
+<polygon points="28.5,17 30,7 31.5,17" fill="green" />
+
+</svg>
